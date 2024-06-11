@@ -260,4 +260,7 @@ int main(int argc, char* argv[]) {
                 break;
         }
     }
+
+    close_input_buffer(input_buffer);
+    free_table(table);
 }
